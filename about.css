@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+.home{
+    text-decoration: none;
+    color: black;
+}
+
+.home:hover{
+    color: rgb(68, 216, 68);
+    transition-duration: 0.5s;
+}
+
+.video{
+    text-decoration: none;
+    color: black;
+}
+
+.video:hover{
+    color: rgb(68, 216, 68);
+    transition-duration: 0.5s;
+}
+
+.about{
+    color: rgb(68, 216, 68);
+}
+
+.logo{
+    width: 148.52px;
+    margin: 10px;
+    display: inline-flex;
+    line-height: 70px;
+}
+
+.links{
+    float: right;
+    margin-right: 20px;
+}
+
+.links li{
+    margin: 0 20px;
+    line-height: 69px;
+    display: inline-flex;
+}
+
+.links li a{
+    font-weight: 700;
+}
+
+.main{
+    font-weight: 600;
+}
+
+.team{
+    background-image: url('team.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.teamh1{
+    color: white;
+    font-weight: 700;
+    padding-top: 25px;
+}
+
+.taskdis{
+    background-image: url('whiteback.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.taskh1{
+    font-weight: 700;
+    padding-top: 50px;
+}
+
+.profile{
+    width: 125px;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.text{
+    width: 125px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    display: inline-block;
+
+}
+
+.position{
+    margin-top: 10px;
+}
+
+#green{
+    color: lime;
+}
+
+#red{
+    color: red;
+}
+
+#orange{
+    color: rgb(255, 170, 0);
+}
+
+#grey{
+    color: gray;
+}
+
+.active{
+    margin-top: 15px;
+    float: center;
+}
+
+.taskdis div{
+    width: 1100px;
+}
+
+.taskby{
+    font-size: 23px;
+    margin-top: 100px;
+    float: left;
+}
+
+.grname{
+    float: left;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1199px){
+
+.profile{
+    width: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.text{
+    width: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.taskdis div{
+    width: 950px;
+}
+
+}

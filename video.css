@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+.home{
+    text-decoration: none;
+    color: black;
+}
+
+.home:hover{
+    color: rgb(68, 216, 68);
+    transition-duration: 0.5s;
+}
+
+.video{
+    color: rgb(68, 216, 68);
+}
+
+.about{
+    text-decoration: none;
+    color: black;
+}
+
+.about:hover{
+    color: rgb(68, 216, 68);
+    transition-duration: 0.5s;
+}
+
+.logo{
+    width: 148.52px;
+    margin: 10px;
+    display: inline-flex;
+    line-height: 70px;
+}
+
+.links{
+    float: right;
+    margin-right: 20px;
+}
+
+.links li{
+    margin: 0 20px;
+    line-height: 69px;
+    display: inline-flex;
+}
+
+.links li a{
+    font-weight: 700;
+}
+
+.main{
+    font-weight: 600;
+    background-color: gray;
+    height: 100vh;
+}
+
+video{
+    height:562.5px;
+    width: 1000px;
+    padding-top: 75px;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1199px){
+
+video{
+    width: 950px;
+    height: 535px;
+}
+
+}

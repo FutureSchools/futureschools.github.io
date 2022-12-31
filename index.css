@@ -1,0 +1,228 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+.home{
+    color: rgb(68, 216, 68);
+}
+
+.video{
+    text-decoration: none;
+    color: black;
+}
+
+.video:hover{
+    color: rgb(68, 216, 68);
+    transition-duration: 0.5s;
+}
+
+.about{
+    text-decoration: none;
+    color: black;
+}
+
+.about:hover{
+    color: rgb(68, 216, 68);
+    transition-duration: 0.5s;
+}
+
+.logo{
+    width: 148.52px;
+    margin: 10px;
+    display: inline-flex;
+    line-height: 70px;
+}
+
+.links{
+    float: right;
+    margin-right: 20px;
+}
+
+.links li{
+    margin: 0 20px;
+    line-height: 69px;
+    display: inline-flex;
+}
+
+.links li a{
+    font-weight: 700;
+}
+
+.main{
+    font-weight: 600;
+}
+
+
+.one{
+    background-image: url('yellowback.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.two{
+    background-image: url('pinkback.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.three{
+    background-image: url('bluew.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.four{
+    background-image: url('greenback.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.oneh1{
+    color: rgb(0, 0, 100);
+    padding: 25px 0px;
+    font-size: 40px;
+}
+
+.one h2{
+    margin-top: 85px;
+    margin-left: 5px;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(255, 40, 40);
+}
+
+.one div{
+    width: 1100px;
+}
+
+.text1{
+    text-align: justify;
+    margin-top: 15px;
+    font-size: 21px;
+}
+
+.two div{
+    width: 1100px;
+}
+
+.two h2{
+    padding-top: 100px;
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(0, 255, 0);
+}
+
+.text2{
+    font-size: 21px;
+    text-align: justify;
+    margin-top: 15px;
+    color: white;
+}
+
+.techboy{
+    width: 400px;
+    float: right;
+    padding-right: 20px;
+}
+
+.three div{
+    width: 1100px;
+}
+
+.three h2{
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(255, 255, 0);
+}
+
+.text3{
+    font-size: 21px;
+    text-align: justify;
+    margin-top: 120px;
+    margin-left: 50px;
+    width: 750px;
+    float: right;
+}
+
+.prac{
+    margin-top: 110px;
+    width: 300px;
+    float: left;
+}
+
+.four{
+    color: white;
+}
+
+.four div{
+    width: 1100px;
+}
+
+.text4{
+    font-size: 21px;
+    text-align: justify;
+    margin-top: 75px;
+    color: white;
+}
+
+.four h2{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(255, 0, 225);
+}
+
+.ul4{
+    font-size: 18px;
+    float: left;
+    text-align: left;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1199px){
+
+.one div{
+    width: 900px;
+}
+
+.two div{
+    width: 900px;
+}
+
+.three div{
+    width: 900px;
+}
+
+.four div{
+    width: 900px;
+}
+
+.text3{
+    font-size: 21px;
+    text-align: justify;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 600px;
+    float: right;
+}
+
+.prac{
+    margin-top: 115px;
+    width: 250px;
+    float: left;
+}
+
+}
