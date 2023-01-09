@@ -66,6 +66,14 @@ video{
     padding-top: 75px;
 }
 
+.credit{
+    color: gray;
+}
+
+.credit::selection{
+    color: rgba(0, 0, 0, 0.25);
+}
+
 @media only screen and (min-width: 950px) and (max-width: 1199px){
 
 video{
